@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { Button, Row } from 'react-bootstrap';
 import Service from '../Service/Service';
+import './Services.css';
 
 const Services = () => {
     const [services, setServices] = useState([]);
+
+    const newServices = services.slice(0, 3);
 
     useEffect(() => {
         fetch('/services.json')
@@ -13,18 +16,18 @@ const Services = () => {
 
     return (
         <>
-            <div className="container py-5 ">
+            <div className="container py-5 services ">
                 <h1>Our services</h1>
                 <Row xs={1} md={3} className="gy-4">
                     {
-                        services.map(service => <Service
+                        newServices.map(service => <Service
                             key={service.id}
                             service={service}
 
                         ></Service>)
                     }
                 </Row>
-                <Button variant="secondary" className="mt-5">Make An Appointment</Button>
+                <Button variant="secondary" className="mt-5">See More Services</Button>
             </div>
         </>
     );

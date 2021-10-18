@@ -1,10 +1,13 @@
 import React from 'react';
-import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import './Header.css';
 import logo from '../../../images/logo.png';
 import { Link } from 'react-router-dom';
+import useAuth from '../../../Hooks/useAuth';
 
 const Header = () => {
+    const { user, logOut } = useAuth();
+
     return (
         <>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className='nav py-4' sticky="top">
@@ -24,8 +27,19 @@ const Header = () => {
                             <Nav.Link href="#features">Features</Nav.Link>
                         </Nav>
                         <Nav>
-                            <Nav.Link href="#pricing">Pricing</Nav.Link>
-                            <Nav.Link href="#deets">More deets</Nav.Link>
+
+                            {
+                                user.email ?
+                                    <Button onClick={logOut} variant="danger" className="  rounded-pill px-4 fw-bolder">Sign Out</Button>
+                                    :
+                                    <Link to="/signin">
+                                        <Button variant="info" className="mx-2 rounded-pill px-4 fw-bolder">Sign In</Button>
+                                    </Link>
+                            }
+                            :
+                            {
+                                user?.email && user?.photoURL ? <img width="40px" className="rounded-circle ms-3 user" src={user.photoURL} alt="" /> : <span className="displayName">{user.displayName}</span>
+                            }
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

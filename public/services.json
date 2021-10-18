@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "Diagnostic",
+        "image": "http://patterson.dr-patterson-dentist.themerex.net/wp-content/uploads/2017/09/post-7-1170x658.jpg",
+        "desc": "We consider all the signs and symptoms of a patient to diagnose."
+    },
+    {
+        "id": 2,
+        "title": "Pediatric Dentistry",
+        "image": "http://patterson.dr-patterson-dentist.themerex.net/wp-content/uploads/2017/10/post-1-1-1170x658.jpg",
+        "desc": "We guarantee our little patients effective treatment at the clinic."
+    },
+    {
+        "id": 3,
+        "title": "Dental Radiography",
+        "image": "http://patterson.dr-patterson-dentist.themerex.net/wp-content/uploads/2017/09/post-9-1170x658.jpg",
+        "desc": "We guarantee our little patients effective treatment at the clinic."
+    },
+    {
+        "id": 4,
+        "title": "Dental Surgery",
+        "image": "http://patterson.dr-patterson-dentist.themerex.net/wp-content/uploads/2017/09/post-6-1170x658.jpg",
+        "desc": "Our doctors expertly perform surgeries of teeth and jaw bones."
+    },
+    {
+        "id": 5,
+        "title": "Dental Braces",
+        "image": "http://patterson.dr-patterson-dentist.themerex.net/wp-content/uploads/2017/09/post-10-1170x658.jpg",
+        "desc": "Let our high-quality braces align and straighten your teeth easily."
+    },
+    {
+        "id": 6,
+        "title": "Laboratory",
+        "image": "http://patterson.dr-patterson-dentist.themerex.net/wp-content/uploads/2017/09/post-10-1170x658.jpg",
+        "desc": "Our doctors expertly perform surgeries of teeth and jaw bones."
+    }
+]

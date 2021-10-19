@@ -6,8 +6,6 @@ import './Services.css';
 const Services = () => {
     const [services, setServices] = useState([]);
 
-    const newServices = services.slice(0, 3);
-
     useEffect(() => {
         fetch('/services.json')
             .then(res => res.json())
@@ -17,17 +15,19 @@ const Services = () => {
     return (
         <>
             <div className="container py-5 services ">
-                <h1>Our services</h1>
+                <hr />
+                <h1>Services</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and</p>
                 <Row xs={1} md={3} className="gy-4">
                     {
-                        newServices.map(service => <Service
+                        services.map(service => <Service
                             key={service.id}
                             service={service}
 
                         ></Service>)
                     }
                 </Row>
-                <Button variant="secondary" className="mt-5">See More Services</Button>
+                {/* <Button variant="secondary" className="mt-5 ">See More Services</Button> */}
             </div>
         </>
     );

@@ -24,7 +24,7 @@ const ServiceDetail = () => {
                         </Link>
 
                     </div>
-                    <div className="col-lg-6 col-md-6 col-sm-12 my-3">
+                    <div className="col-lg-6 col-md-6 col-sm-12 my-">
                         <img width="100%" src={detail?.image} alt="" />
                     </div>
                 </div>

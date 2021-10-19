@@ -4,6 +4,8 @@ import './Header.css';
 import logo from '../../../images/logo.png';
 import { Link } from 'react-router-dom';
 import useAuth from '../../../Hooks/useAuth';
+import { FiLogOut } from "react-icons/fi";
+import { FaSignInAlt } from "react-icons/fa";
 
 const Header = () => {
     const { user, logOut } = useAuth();
@@ -30,10 +32,10 @@ const Header = () => {
 
                             {
                                 user.email ?
-                                    <Button onClick={logOut} variant="danger" className="  rounded-pill px-4 fw-bolder">Sign Out</Button>
+                                    <Button onClick={logOut} variant="danger" className="  rounded-pill px-3 fw-bolder">Sign Out <FiLogOut /></Button>
                                     :
                                     <Link to="/signin">
-                                        <Button variant="info" className="mx-2 rounded-pill px-4 fw-bolder">Sign In</Button>
+                                        <Button variant="info" className="mx-2 rounded-pill px-3 fw-bolder">Sign In <FaSignInAlt /></Button>
                                     </Link>
                             }
                             :

@@ -1,8 +1,10 @@
 .service{
-    transition: 0.5s;
+    transition: 0.3s;
 }
 .service:hover {
     transform: scale(1.1);
     box-shadow: 10px 10px 100px rgba(0, 0, 0, 0.089);
+    background-color: darkturquoise;
+    color: rgb(87, 87, 87);
   }
  

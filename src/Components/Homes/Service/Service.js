@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom';
 import './Service.css';
 import { BiRightArrowAlt } from "react-icons/bi";
 
+
 const Service = ({ service }) => {
     const { id, title, desc, image } = service;
     return (
         <div>
-
             <Card className=" m-3 service border-dark" >
                 <Card.Img variant="top" className="img rounded" src={image} />
                 <Card.Body className="p-5">
@@ -21,7 +21,6 @@ const Service = ({ service }) => {
                     </Link>
                 </Card.Body>
             </Card>
-
         </div >
     );
 };

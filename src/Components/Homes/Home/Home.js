@@ -1,6 +1,8 @@
 import React from 'react';
+import { Route } from 'react-router';
 import AboutUs from '../AboutUs/AboutUs';
 import Appoinment from '../Appoinment/Appoinment';
+import Doctors from '../Doctors/Doctors';
 import Services from '../Services/Services';
 import TopBanner from '../TopBanner/TopBanner';
 
@@ -9,8 +11,9 @@ const Home = () => {
         <div>
             <TopBanner></TopBanner>
             <Services></Services>
-            <Appoinment></Appoinment>
             <AboutUs></AboutUs>
+            <Doctors></Doctors>
+            <Appoinment></Appoinment>
         </div>
     );
 };

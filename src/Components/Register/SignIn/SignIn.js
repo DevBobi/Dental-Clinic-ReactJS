@@ -4,6 +4,8 @@ import useAuth from '../../../Hooks/useAuth';
 // import logo from '../../../images/logo.png';
 import './SignIn.css';
 import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
+import { FcGoogle } from 'react-icons/fc';
+import { FaUserAlt } from 'react-icons/fa';
 
 const SignIn = () => {
     const { googleSignIn, setUser, user } = useAuth();
@@ -52,7 +54,7 @@ const SignIn = () => {
                     </div>
                 }
                 <div className="text-center p-3">
-                    {/* <img width="200px" src={logo} alt="" /> */}
+                    <img width="200px" src={<FaUserAlt />} alt="" />
                 </div>
                 <form onSubmit="" className="form text-center border-dark">
                     <h2>Please Sign In</h2>
@@ -64,7 +66,7 @@ const SignIn = () => {
                     </div>
                     <p>--------------- or -------------</p>
                     <div className="text-center py-2">
-                        <button onClick={handleGoogleSignIn} className="m-0 g-btn"><i className="fab fa-google"></i> SignIn Using Google</button>
+                        <button onClick={handleGoogleSignIn} className="m-0 g-btn"><FcGoogle /> SignIn Using Google</button>
                     </div>
                 </form>
             </div>

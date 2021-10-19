@@ -17,8 +17,8 @@ const TopBanner = () => {
                     />
                     <Carousel.Caption>
                         <div className="carousel-text">
-                            <h1>First slide label</h1>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            <h1>Welcome to Denta</h1>
+                            <p>A promising dental clinic for your dental care</p>
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -30,7 +30,7 @@ const TopBanner = () => {
                     />
                     <Carousel.Caption>
                         <div className="carousel-text">
-                            <h1>First slide label</h1>
+                            <h1>Take </h1>
                             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                         </div>
                     </Carousel.Caption>

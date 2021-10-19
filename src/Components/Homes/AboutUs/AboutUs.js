@@ -14,7 +14,7 @@ const AboutUs = () => {
                         <h6><span className="text-info p-1 rounded-pill">#About</span></h6>
                         <h1 className=''>Best Dental Clinic That
                             You Can Trust</h1>
-                        <p className='text-Justify'>ullamco laboris nisi ut aliquip ex ea commodo cons equat. Du aute irure dolor in repreh enderit in voluptate velit esse cillumo eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat no proident, sunt in culpa qui officia dese aute irure dolor in</p>
+                        <p className='text-Justify'>Our dentists are highly qualified professionals and supported by state-of-the-art dental equipments and technologies. We strive to ensure that our patients receive excellent care and personal attention, served with compassion and kindness. Because our patients are our most important asset, our goal is to develop long lasting, trusting relationships with them.</p>
                     </div>
                     <div className="py-3 gy-3">
                         <h4>Clneasing</h4>

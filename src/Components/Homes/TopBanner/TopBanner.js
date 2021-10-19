@@ -7,7 +7,7 @@ import banner3 from '../../../images/banner/banner3.png';
 
 const TopBanner = () => {
     return (
-        <div>
+        <div id="topbanner">
             <Carousel fade>
                 <Carousel.Item>
                     <img
@@ -30,7 +30,7 @@ const TopBanner = () => {
                     />
                     <Carousel.Caption>
                         <div className="carousel-text">
-                            <h1>Take </h1>
+                            <h1>Take A Look Our Services</h1>
                             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                         </div>
                     </Carousel.Caption>

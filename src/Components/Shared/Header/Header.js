@@ -14,7 +14,7 @@ const Header = () => {
         <>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className='nav py-4' sticky="top">
                 <Container>
-                    <Navbar.Brand as={Link} to="/home">
+                    <Navbar.Brand as={Link} to="/home#topbanner">
                         <img
                             src={logo}
                             width="120"

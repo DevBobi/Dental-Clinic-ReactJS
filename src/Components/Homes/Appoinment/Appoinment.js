@@ -10,11 +10,12 @@ const Appoinment = () => {
             <Box sx={{ flexGrow: 1 }}>
                 <Grid container spacing={4}
                     alignItems="center"
-                    justify="center">
-                    <Grid item xs={12} flexDirection md={8}>
-                        <Card sx={{ maxWidth: 500, minWidth: 300 }}>
+                    justify="center"
+                >
+                    <Grid item xs={4} flexDirection md={8}>
+                        <Card sx={{ maxWidth: 500, minWidth: 400 }}>
                             <CardActionArea>
-                                <CardContent>
+                                <CardContent className="align-items-center">
                                     <Typography gutterBottom variant="h5" component="div">
                                         Make An Appointment Today!
                                     </Typography>

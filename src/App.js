@@ -14,6 +14,7 @@ import PrivateRoute from './Components/Register/PrivateRoute/PrivateRoute';
 import Signup from './Components/Register/SignUp/SignUp';
 import SignIn from './Components/Register/SignIn/SignIn';
 import AboutUs from './Components/Homes/AboutUs/AboutUs';
+import DoctorDetail from './Components/Homes/DoctorDetail/DoctorDetail';
 
 
 function App() {
@@ -37,6 +38,9 @@ function App() {
             </Route>
             <PrivateRoute path="/serviceDetail/:serviceId">
               <ServiceDetail></ServiceDetail>
+            </PrivateRoute>
+            <PrivateRoute path="/doctorDetail/:doctorId">
+              <DoctorDetail></DoctorDetail>
             </PrivateRoute>
             <Route path="*">
               <NotFound></NotFound>

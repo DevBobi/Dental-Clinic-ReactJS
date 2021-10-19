@@ -15,8 +15,7 @@ const Doctors = () => {
 
     return (
         <>
-            <div className="container py-5 services ">
-                <hr />
+            <div className="container py-5 doc ">
                 <h1>Our Doctors</h1>
                 <p>Lorem Ipsum is simply dummy text of the printing and</p>
                 <Row xs={1} md={3} className="gy-4">

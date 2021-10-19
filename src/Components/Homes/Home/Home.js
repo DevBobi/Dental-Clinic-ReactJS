@@ -9,7 +9,7 @@ import TopBanner from '../TopBanner/TopBanner';
 const Home = () => {
     return (
         <div>
-            <TopBanner></TopBanner>
+            <TopBanner ></TopBanner>
             <Services></Services>
             <AboutUs></AboutUs>
             <Doctors></Doctors>

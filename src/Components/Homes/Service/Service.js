@@ -9,9 +9,9 @@ const Service = ({ service }) => {
     const { id, title, desc, image } = service;
     return (
         <div>
-            <Card className=" m-3 service border-dark" >
+            <Card className=" m-4 service border-dark" >
                 <Card.Img variant="top" className="img rounded" src={image} />
-                <Card.Body className="p-5">
+                <Card.Body className="p-4">
                     <Card.Title>{title}</Card.Title>
                     <Card.Text>
                         {desc}

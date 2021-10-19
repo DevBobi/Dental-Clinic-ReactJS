@@ -6,8 +6,10 @@ const Footer = () => {
         <div className="bg-dark">
             <div className="container p-4">
                 <div className="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 g-4">
-                    <div className="col">
-                        <img width="150px" src={FooterLogo} alt="" />
+                    <div className="row">
+                        <img width="150px" src={FooterLogo} className="" alt="" />
+                        <small className="text-light p-3">copyright &copy;</small>
+
                     </div>
                     <div className="col text-light mt-3">
                         <small className="m-0">About Us</small><br />
@@ -22,12 +24,7 @@ const Footer = () => {
                         <small className="m-0">Policy & terms</small><br />
                     </div>
                 </div>
-                <div className="row d-flex align-items-center">
-                    <div className="col-lg-8 col-md-6 col-sm-12">
-                        <small className="text-light">copyright &copy; reserved onion Food</small>
-                    </div>
 
-                </div>
             </div>
         </div >
     );

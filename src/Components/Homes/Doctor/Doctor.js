@@ -9,12 +9,12 @@ const Doctor = ({ doctor }) => {
     return (
         <div>
 
-            <div>
+            <div className="p-5">
                 <Card sx={{ maxWidth: 345 }}>
                     <CardActionArea>
                         <CardMedia
                             component="img"
-                            height="300"
+                            height="200"
                             image={image}
                             alt="doctors"
                         />

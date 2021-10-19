@@ -8,15 +8,15 @@ const AboutUs = () => {
     return (
         <div className='m-5 py-5 border rounded about'>
 
-            <div className="row">
-                <div className="col-md-7 about-text  p-5 ">
-                    <div className="py-3">
-                        <h6><span className="text-info p-1 rounded-pill">#About</span></h6>
+            <div className="row p-md-5">
+                <div className="col-md-8 about-text p-lg-5">
+                    <div className="">
+                        <h6><span className="text-info rounded-pill">#About</span></h6>
                         <h1 className=''>Best Dental Clinic That
                             You Can Trust</h1>
                         <p className='text-Justify'>Our dentists are highly qualified professionals and supported by state-of-the-art dental equipments and technologies. We strive to ensure that our patients receive excellent care and personal attention, served with compassion and kindness. Because our patients are our most important asset, our goal is to develop long lasting, trusting relationships with them.</p>
                     </div>
-                    <div className="py-3 gy-3">
+                    <div className="pt-3 gy-3">
                         <h4>Clneasing</h4>
                         <ProgressBar variant="success" now={95} />
                         <h4>Crown & Bridges</h4>
@@ -28,7 +28,7 @@ const AboutUs = () => {
                     </div>
                 </div>
                 <div className="col-md-4">
-                    <div className="about-img my-4">
+                    <div className="about-img mt-5">
                         <img className='w-75 img-fluid rounded' src={aboutImg} alt="" />
                     </div>
                 </div>

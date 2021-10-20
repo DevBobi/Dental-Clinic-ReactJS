@@ -17,7 +17,7 @@ const Services = () => {
             <div className="container py-5 services ">
                 <hr />
                 <h1>Services</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and</p>
+                <p>Have a quick overview of our services</p>
                 <Row xs={1} md={3} className="gy-4">
                     {
                         services.map(service => <Service

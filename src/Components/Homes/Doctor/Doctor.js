@@ -22,17 +22,17 @@ const Doctor = ({ doctor }) => {
                             <Typography gutterBottom variant="h5" component="div">
                                 {title}
                             </Typography>
-                            <Typography gutterBottom variant="h5" component="div">
+                            <Typography gutterBottom variant="h6" color="primary" component="div">
                                 <span>{specialist}</span>
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                                {desc}
+                                {desc.slice(0, 80)}
                             </Typography>
                         </CardContent>
                     </CardActionArea>
                     <CardActions style={{ justifyContent: 'center' }}>
-                        <Link to={`/doctorDetail/${id}`}>
-                            <Button variant="contained" color="success">
+                        <Link to={`/doctorDetail/${id}`} style={{ textDecoration: 'none' }}>
+                            <Button variant="contained" color="info">
                                 Make An Appoinment
                             </Button>
                         </Link>

@@ -7,10 +7,10 @@ import './Appoinment.css'
 const Appoinment = () => {
     return (
         <div className="appoinment-div">
-            <Grid container spacing={12} columns={12}>
+            <Grid container spacing={8} columns={12}>
 
                 <Grid item xs={8}
-                    flexDirection md={12}
+                    flexDirection md={12} xs={12}
                     container
                     direction="row"
                     justifyContent="center"
@@ -32,7 +32,7 @@ const Appoinment = () => {
                 </Grid>
 
                 <Grid item xs={8} md={4}
-                    flexDirection md={12} xs={4}
+                    flexDirection md={12} xs={12}
                     container
                     direction="row"
                     justifyContent="center"

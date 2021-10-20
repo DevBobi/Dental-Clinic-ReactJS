@@ -1,7 +1,7 @@
 .signin-area{
     margin: 0 auto;
     width: 300px;
-    padding-top: 30px;
+    padding-top: 10px;
     padding-bottom: 10px;
 }
 
@@ -15,7 +15,7 @@
     border: none;
     padding: 10px 40px;
     border-radius: 10px;
-    box-shadow: 0 10px 20px #000;
+    box-shadow: 0 5px 10px rgb(128, 127, 127);
     font-size: 19px;
     font-weight: 500;
 }

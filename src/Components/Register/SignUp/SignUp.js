@@ -3,7 +3,8 @@ import { Link, useLocation, useHistory } from 'react-router-dom';
 import useAuth from '../../../Hooks/useAuth';
 import './SignUp.css';
 import { updateProfile, createUserWithEmailAndPassword } from 'firebase/auth';
-
+import { FcGoogle } from 'react-icons/fc';
+import logo from '../../../images/userIcon.png';
 
 const Signup = () => {
 
@@ -77,7 +78,7 @@ const Signup = () => {
                         </div>
                     }
                     <div className="text-center mb-2">
-                        {/* <img width="200px" src={logo} alt="" /> */}
+                        <img width="100px" src={logo} alt="" />
                     </div>
                     <h2>Please Sing Up</h2>
                     <form onSubmit={createUser} className="form text-center pt-3">
@@ -90,8 +91,9 @@ const Signup = () => {
                         </div>
                     </form>
                     <p>---------------------- or ----------------------</p>
-                    <div className="text-center m-0">
-                        <button onClick={signInGoogle} className="m-0 g-btn"><i className="fab fa-google"></i> Sign In With Google</button>
+
+                    <div className="text-center ">
+                        <button onClick={signInGoogle} className="g-btn"><FcGoogle /> SignIn Using Google</button>
                     </div>
                 </div>
             </div>

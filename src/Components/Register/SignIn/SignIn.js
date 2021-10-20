@@ -1,14 +1,13 @@
 import React, { useState } from 'react';
 import { Link, useLocation, useHistory } from 'react-router-dom';
 import useAuth from '../../../Hooks/useAuth';
-// import logo from '../../../images/logo.png';
+import logo from '../../../images/userIcon.png';
 import './SignIn.css';
 import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
 import { FcGoogle } from 'react-icons/fc';
-import { FaUserAlt } from 'react-icons/fa';
 
 const SignIn = () => {
-    const { googleSignIn, setUser, user, setIsLoading } = useAuth();
+    const { googleSignIn, setUser, setIsLoading } = useAuth();
 
     const [password, setPassword] = useState('');
     const [email, setEmail] = useState('');
@@ -47,16 +46,16 @@ const SignIn = () => {
     return (
         <>
 
-            <div className="signin-area my-4 ">
+            <div className="signin-area my-5 ">
                 {
                     error && <div className="alert alert-danger m-3" role="alert">
                         {error}
                     </div>
                 }
                 <div className="text-center p-3">
-                    <img width="200px" src={<FaUserAlt />} alt="" />
+                    <img width="100px" src={logo} alt="" />
                 </div>
-                <form onSubmit="" className="form text-center border-dark">
+                <form onSubmit={handleSignIn} className="form text-center border-dark">
                     <h2>Please Sign In</h2>
                     <input onBlur={(e) => setEmail(e.target.value)} type="email" placeholder="Email" required /><br /><br />
                     <input onBlur={(e) => setPassword(e.target.value)} type="password" placeholder="Password" required /><br /><br />

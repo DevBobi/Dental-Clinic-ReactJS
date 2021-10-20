@@ -15,6 +15,8 @@ import Signup from './Components/Register/SignUp/SignUp';
 import SignIn from './Components/Register/SignIn/SignIn';
 import AboutUs from './Components/Homes/AboutUs/AboutUs';
 import DoctorDetail from './Components/Homes/DoctorDetail/DoctorDetail';
+import Services from './Components/Homes/Services/Services';
+import Appoinment from './Components/Homes/Appoinment/Appoinment';
 
 
 function App() {
@@ -29,6 +31,15 @@ function App() {
             </Route>
             <Route path="/home">
               <Home></Home>
+            </Route>
+            <Route path="/services">
+              <Services ></Services>
+            </Route>
+            <Route path="/about">
+              <AboutUs></AboutUs>
+            </Route>
+            <Route path="/appoinment">
+              <Appoinment></Appoinment>
             </Route>
             <Route path="/signin">
               <SignIn></SignIn>

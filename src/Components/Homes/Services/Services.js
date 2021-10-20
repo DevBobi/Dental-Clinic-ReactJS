@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Button, Row } from 'react-bootstrap';
+import { Row } from 'react-bootstrap';
 import Service from '../Service/Service';
 import './Services.css';
 
@@ -14,7 +14,7 @@ const Services = () => {
 
     return (
         <>
-            <div className="container py-5 services ">
+            <div className="container py-5  ">
                 <hr />
                 <h1>Services</h1>
                 <p>Have a quick overview of our services</p>
@@ -27,7 +27,6 @@ const Services = () => {
                         ></Service>)
                     }
                 </Row>
-                {/* <Button variant="secondary" className="mt-5 ">See More Services</Button> */}
             </div>
         </>
     );

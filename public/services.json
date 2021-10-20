@@ -1,38 +1,38 @@
 [
     {
         "id": 1,
-        "title": "Cleaning",
+        "title": "P. Cleaning",
         "image": "https://themecrazy.net/wp/medison/wp-content/uploads/2017/04/1-2.jpg",
-        "desc": "We consider all the signs and symptoms of a patient to diagnose."
+        "desc": "A prophylaxis cleaning is a teeth cleaning procedure that is mainly used on individuals with an overall healthy mouth. A prophylaxis cleaning is designed to perform routine maintenance, such as removing an expected amount of tartar and plaque from the surface of teeth, gums and in between teeth."
     },
     {
         "id": 2,
         "title": "CROWNS & BRIDGES",
         "image": "https://themecrazy.net/wp/medison/wp-content/uploads/2017/04/2-1.jpg",
-        "desc": "We guarantee our little patients effective treatment at the clinic."
+        "desc": "Scaling and root planing is often recommended for individuals who suffer from gum diseases such as gingivitis or periodontitis. Since scaling and root planing involves smoothing out the surface of the tooth root and removing any tartar and plaque that exists, it can at times take multiple dental visits to complete."
     },
     {
         "id": 3,
         "title": "ROOT CANALS",
         "image": "https://themecrazy.net/wp/medison/wp-content/uploads/2017/04/3-1.jpg",
-        "desc": "We guarantee our little patients effective treatment at the clinic."
+        "desc": "A root canal is performed when the endodontist removes the infected pulp and nerve in the root of the tooth, cleans and shapes the inside of the root canal, then fills and seals the space. Afterward, your dentist will place a crown on the tooth to protect and restore it to its original function."
     },
     {
         "id": 4,
         "title": "COSMETIC DENTISTRY",
         "image": "https://themecrazy.net/wp/medison/wp-content/uploads/2017/04/4.jpg",
-        "desc": "Our doctors expertly perform surgeries of teeth and jaw bones."
+        "desc": "This method of professional oral care focuses on improving the appearance of your mouth, teeth, gums, and overall smile. Common procedures include teeth whitening, veneers, fillings, and implants. Cosmetic dentistry is becoming more and more popular, with the industry as a whole projected to reach $32 billion by 2026."
     },
     {
         "id": 5,
         "title": "DENTAL IMPLANTS",
         "image": "https://themecrazy.net/wp/medison/wp-content/uploads/2017/04/5.jpg",
-        "desc": "Let our high-quality braces align and straighten your teeth easily."
+        "desc": "Dental implants have a high success rate of around 95%, and they lead to an increased quality of life for many people. However, dental implants can cause complications, such as infections, gum recession, and nerve and tissue damage."
     },
     {
         "id": 6,
         "title": "WHITENING",
         "image": "https://themecrazy.net/wp/medison/wp-content/uploads/2017/04/6-1.jpg",
-        "desc": "Our doctors expertly perform surgeries of teeth and jaw bones."
+        "desc": "Is Teeth Whitening Safe For My Enamel? The yellow discoloration of your teeth is the most common sign of damaged enamel. This begs the question “does teeth whitening damage the enamel?” The answer is no, teeth whitening doesn't damage your tooth enamel."
     }
 ]

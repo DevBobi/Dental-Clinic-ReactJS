@@ -17,7 +17,8 @@ const Doctors = () => {
         <>
             <div className="container py-5 doc ">
                 <h1>Our Doctors</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and</p>
+                <p>Have an overview of our doctors</p>
+                <hr />
                 <Row xs={1} md={3} className="gy-4">
                     {
                         doctor.map(doctor => <Doctor

@@ -39,7 +39,7 @@ const SignIn = () => {
                 history.push(redirect_url);
             }).finally(() => setIsLoading)
             .catch(error => {
-                setError(error.message);
+                setError('User Not Found!');
             })
     }
 

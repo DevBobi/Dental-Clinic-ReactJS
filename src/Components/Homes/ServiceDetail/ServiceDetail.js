@@ -12,7 +12,7 @@ const ServiceDetail = () => {
     return (
         <div>
 
-            <div className="container my-5">
+            <div className="container my-5 py-2">
                 <div className="row d-flex align-items-center">
                     <div className="col-lg-6 col-md-6 col-sm-12">
                         <h2>{detail?.title}</h2>

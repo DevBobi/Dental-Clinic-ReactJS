@@ -18,8 +18,7 @@ const Service = ({ service }) => {
                         {desc.slice(0, 75)}..
                     </Card.Text>
                     <Link to={`/serviceDetail/${id}`} style={{ textDecoration: 'none' }}>
-                        {/* <Button variant="secondary" className="fw-normal rounded-pill px-3">Learn More <BiRightArrowAlt /></Button> */}
-                        <Button variant="outlined" color="secondary">Learn More <BiRightArrowAlt /></Button>
+                        <Button variant="outlined" color="primary">Learn More <BiRightArrowAlt /></Button>
                     </Link>
                 </Card.Body>
             </Card>

@@ -30,7 +30,8 @@ const TopBanner = () => {
                     />
                     <Carousel.Caption>
                         <div className="carousel-text">
-                            <h1>Take A Look Our Services</h1>
+                            <h1>
+                                Excellent Techniques For <br /> Healthy br Dental Condition</h1>
                             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                         </div>
                     </Carousel.Caption>
@@ -41,10 +42,12 @@ const TopBanner = () => {
                         src={banner3}
                         alt="Third slide"
                     />
-
                     <Carousel.Caption>
-                        {/* <h3>Third slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
+                        <div className="carousel-text">
+                            <h1>
+                                What Makes Us Better, <br /> Makes You Better</h1>
+
+                        </div>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

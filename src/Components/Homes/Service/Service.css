@@ -1,11 +1,13 @@
 .service{
-    background-color:  darkturquoise;
+    background-color: rgb(209, 118, 0);
+    color: rgb(0, 0, 0);
+   
     transition: 0.3s;
 }
 .service:hover {
     transform: scale(1.1);
-    box-shadow: 10px 10px 100px rgba(0, 0, 0, 0.089);
-    background-color: rgb(209, 118, 0);
-    color: rgb(255, 255, 255);
+    box-shadow: 10px 20px 100px rgba(0, 0, 0, 0.089);
+    background-color:  darkturquoise;
+    color: black;
   }
  

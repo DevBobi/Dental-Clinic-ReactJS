@@ -10,7 +10,7 @@ const Doctor = ({ doctor }) => {
         <div>
 
             <div className="p-5">
-                <Card sx={{ maxWidth: 345 }}>
+                <Card sx={{ maxWidth: 345, minWidth: 300 }}>
                     <CardActionArea>
                         <CardMedia
                             component="img"

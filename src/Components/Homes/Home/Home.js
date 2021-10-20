@@ -1,10 +1,9 @@
 import React from 'react';
-import AboutUs from '../AboutUs/AboutUs';
-import Appoinment from '../Appoinment/Appoinment';
-import Doctors from '../Doctors/Doctors';
-import Services from '../Services/Services';
 import TopBanner from '../TopBanner/TopBanner';
-import { Route } from 'react-router-dom';
+import Services from '../Services/Services';
+import AboutUs from '../AboutUs/AboutUs';
+import Doctors from '../Doctors/Doctors';
+import Appoinment from '../Appoinment/Appoinment';
 
 const Home = () => {
     return (

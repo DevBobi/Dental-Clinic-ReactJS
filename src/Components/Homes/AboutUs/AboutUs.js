@@ -8,7 +8,7 @@ const AboutUs = () => {
     return (
         <div className='m-5 m-sm-3 py-3 border rounded about'>
             <div className="row p-md-5">
-                <div className="col-md-8 about-text p-lg-5">
+                <div className="col-md-8 about-text p-lg-5 p-md-4">
                     <div className="">
                         <h6><span className="text-info rounded-pill">#About</span></h6>
                         <h1 className='text-dark'>Best Dental Clinic That

@@ -28,7 +28,6 @@ const Doctors = () => {
                         ></Doctor>)
                     }
                 </Row>
-                {/* <Button variant="secondary" className="mt-5 ">See More Services</Button> */}
             </div>
         </>
     );

@@ -6,7 +6,7 @@ import './AboutUs.css';
 const AboutUs = () => {
 
     return (
-        <div className='m-5 py-5 border rounded about'>
+        <div className='m-5 py-3 border rounded about'>
 
             <div className="row p-md-5">
                 <div className="col-md-8 about-text p-lg-5">
@@ -28,7 +28,7 @@ const AboutUs = () => {
                     </div>
                 </div>
                 <div className="col-md-4">
-                    <div className="about-img mt-5">
+                    <div className="about-img my-3">
                         <img className='w-75 img-fluid rounded' src={aboutImg} alt="" />
                     </div>
                 </div>

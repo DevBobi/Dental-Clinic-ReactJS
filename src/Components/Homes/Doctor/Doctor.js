@@ -30,7 +30,7 @@ const Doctor = ({ doctor }) => {
                             </Typography>
                         </CardContent>
                     </CardActionArea>
-                    <CardActions>
+                    <CardActions style={{ justifyContent: 'center' }}>
                         <Link to={`/doctorDetail/${id}`}>
                             <Button variant="contained" color="success">
                                 Make An Appoinment

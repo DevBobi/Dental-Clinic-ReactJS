@@ -8,7 +8,7 @@ import { FcGoogle } from 'react-icons/fc';
 import { FaUserAlt } from 'react-icons/fa';
 
 const SignIn = () => {
-    const { googleSignIn, setUser, user } = useAuth();
+    const { googleSignIn, setUser, user, setIsLoading } = useAuth();
 
     const [password, setPassword] = useState('');
     const [email, setEmail] = useState('');
@@ -24,7 +24,7 @@ const SignIn = () => {
             .then(result => {
                 setUser(result.user);
                 history.push(redirect_url);
-            })
+            }).finally(() => setIsLoading(false))
             .catch(error => {
 
             })
@@ -35,10 +35,10 @@ const SignIn = () => {
     const handleSignIn = (e) => {
         e.preventDefault();
         signInWithEmailAndPassword(auth, email, password)
-            .then(res => {
-                setUser(res.user);
+            .then(result => {
+                setUser(result.user);
                 history.push(redirect_url);
-            })
+            }).finally(() => setIsLoading)
             .catch(error => {
                 setError(error.message);
             })

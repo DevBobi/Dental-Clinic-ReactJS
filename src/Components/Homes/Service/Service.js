@@ -1,8 +1,9 @@
 import React from 'react';
-import { Button, Card } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { BiRightArrowAlt } from "react-icons/bi";
 import './Service.css';
+import { Button } from '@mui/material';
 
 
 const Service = ({ service }) => {
@@ -16,8 +17,9 @@ const Service = ({ service }) => {
                     <Card.Text>
                         {desc.slice(0, 75)}..
                     </Card.Text>
-                    <Link to={`/serviceDetail/${id}`}>
-                        <Button variant="secondary" className="fw-normal rounded-pill px-3">Learn More <BiRightArrowAlt /></Button>
+                    <Link to={`/serviceDetail/${id}`} style={{ textDecoration: 'none' }}>
+                        {/* <Button variant="secondary" className="fw-normal rounded-pill px-3">Learn More <BiRightArrowAlt /></Button> */}
+                        <Button variant="outlined" color="secondary">Learn More <BiRightArrowAlt /></Button>
                     </Link>
                 </Card.Body>
             </Card>
